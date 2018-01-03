@@ -349,7 +349,7 @@ suite.onePerPull = testWithContext(function(done, CTX) {
 suite.expiredPush = testWithContext(function(done, CTX){
   var pull = CTX.socket('PULL');
   pull.setEncoding('utf8');
-  
+
   var push = CTX.socket('PUSH');
   var target = 'testExpiration';
 
